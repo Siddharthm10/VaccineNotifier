@@ -24,6 +24,9 @@ python3 main.py
 ```
 **NOTE** You will have to enter the otp once the program starts :)
 
+###TODO
+- [ ] Use Google api for sending mails
+
 ### All contribution are invited 
 I wish to make this code easy to use for everyone. All suggestions and contributions are invited :)
 Stay safe 
