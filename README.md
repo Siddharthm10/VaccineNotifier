@@ -24,8 +24,14 @@ python3 main.py
 ```
 **NOTE** You will have to enter the otp once the program starts :)
 
-###TODO
+### TODO
 - [ ] Use Google api for sending mails
+
+### Cons
+- Works for 15 min only as the token expires after that.
+  - The process after that is also automated, and you just have to enter the OTP recieved.
+  - OTP shouldnt be automated because that can tend to high risk.
+
 
 ### All contribution are invited 
 I wish to make this code easy to use for everyone. All suggestions and contributions are invited :)
