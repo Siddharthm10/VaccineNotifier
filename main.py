@@ -51,10 +51,12 @@ def sendMail(sender_email, receiver_mails, password, message):
 
 
 def Bot(driver):
+    ############## DONT CHANGE THIS################################
     available=False
-    
+    message = ""
     driver.get("https://selfregistration.cowin.gov.in/appointment")
     driver.refresh()
+    ###############################################################
 
     phoneNo = driver.find_element_by_xpath('//*[@id="mat-input-0"]')
     time.sleep(2)
@@ -127,10 +129,6 @@ if __name__=="__main__":
     driver = webdriver.Chrome(options = options, executable_path= PATH)
     ###############################################################
 
-    ############## DONT CHANGE THIS################################
-    message = ""
-    ###############################################################
-
 
     ################USER CONFIG###################################
     PHONE = "123456789"
@@ -140,5 +138,5 @@ if __name__=="__main__":
     receiver_email = ["email1@gmail.com", "email2@gmail.com"]
     ##############################################################
 
-
+    message = ""
     Bot(driver)
